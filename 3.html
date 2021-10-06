@@ -1,0 +1,48 @@
+<html>
+<head>
+<style>
+body{
+   overflow:hidden;
+   postion:fixed;
+}
+
+</style>
+</head>
+
+<body>
+  <div> <img name="slide"  width="1500"  height="200"></div>
+
+
+<script>
+var i=0;
+var image=[];
+var time=3000;
+
+
+image[0]="image1.jfif";
+image[1]="image2.jfif";
+image[2]="image3.jfif";
+
+
+function fun(){
+
+document.slide.src=image[i];
+
+ 
+if(i<image.length-1){
+i++;
+}
+
+else
+{
+i=0;
+}
+
+setTimeout("fun()",time);
+}
+
+window.onload=fun;
+</script>
+
+</body>
+</html> 

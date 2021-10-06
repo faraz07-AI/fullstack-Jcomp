@@ -1,0 +1,172 @@
+@media only screen and (min-width:1000px){
+
+.myclass{
+margin:7px 0;
+text-align: left;
+line-height:20px;
+padding:20px 20px 0 40px;
+border-right:3px solid #111;
+float: left;
+color:#111;
+font-weight:900;
+}
+
+header nav ul{
+margin:30px 0px 0px 20px;
+padding: 25px 16px;
+float:left; 
+}
+header nav ul li{
+display:inline-block;
+float:left;
+list-style:none;
+padding: 0 16px;
+}
+header nav ul li a{
+font-family:catamaran;
+font-size:16px;
+list-height: 60px;
+color:#111;
+text-transform:uppercase;
+}
+
+.header-signup
+{
+diplay:block;
+font-family:catamaran;
+font-size: 16px;
+text-transform:uppercase;
+margin-right:40px;
+margin-top:0px;
+line-height:38px;
+padding: 0 20px;
+border:1px solid #111;
+float: right;
+color:#111;
+}
+
+.mycla{
+background-color:rgb(0, 0, 0);
+   color:rgb(255,255,255);
+   width:150px;  
+   text-align:center;
+   border-radius:10px;
+   height:40px;
+}
+
+.myclas{
+background-color:rgb(0, 0, 0);
+   color:rgb(255,255,255);
+   width:150px;  
+   text-align:center;
+   border-radius:10px;
+   height:40px;
+}
+.login{
+height:50px;
+border-color:rgb(0,0,0);
+border-radius:15px;
+padding:5px 5px 5px 5px;
+margin:8px 5px 80px 5px;
+}
+
+.password{
+height:50px;
+border-color:rgb(0,0,0);
+border-radius:15px;
+padding:5px 5px 5px 5px;
+margin:8px 5px 80px 5px;
+}
+.login:hover{
+width:300px;
+}
+
+.password:hover{
+width:300px;
+}
+
+}
+
+* {
+text-decoration:none;
+}
+
+body{
+background-color:lightgrey;
+}
+
+header{
+background-color:#fff;
+width:100%;
+height:70px;
+margin:0px ;
+box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+header.myclass
+{
+font-family:catamaran;
+font-size:24px;
+font-weight:900;
+color:#111;
+text-transform:uppercase;
+display:block;
+margin:0 auto;
+text-align:center;
+padding:20px 0;
+}
+
+header nav ul {
+display:block;
+margin:0 auto;
+width:fit-content; 
+
+}
+header nav ul li{
+display:inline-block;
+float:left;
+list-style:none;
+padding:0 16px;
+}
+header nav ul li a {
+font-family:catamaran;
+font-size:16px;
+list-style:none;
+color:#111;
+display:inline-block;
+float:left;
+}
+
+header.mycla{
+text-align:center
+background-color:rgb(0, 0, 0);
+color:rgb(225,225,225);
+border-radius:15px;
+width:55px;
+height:10px;
+}
+
+header.myclas{
+text-align:center
+background-color:rgb(0, 0, 0);
+color:rgb(225,225,225);
+border-radius:15px;
+width:55px;
+height:10px;
+}
+
+header.header-signup
+{
+diplay:block;
+font-family:catamaran;
+font-size: 16px;
+text-transform:uppercase;
+margin-right:40px;
+margin-top:0px;
+line-height:38px;
+padding: 0 20px;
+border:1px solid #111;
+float: right;
+color:#111;
+}
+

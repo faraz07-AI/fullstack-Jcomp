@@ -1,0 +1,12 @@
+CREATE TABLE police(
+iduser int(11) AUTO_INCREMENT PRIMARY KEY NOT null,
+username varchar(30)NOT NULL,
+emailid varchar(30) NOT NULL,
+mobilenumber int(15) NOT NULL,
+height DOUBLE (40,2)  NOT NULL,
+weight DOUBLE (40,2) NOT NULL, 
+u_date DATE,
+address varchar(225) NOT NULL,
+country varchar(30) NOT NULL,
+state   varchar(30) NOT NULL
+);

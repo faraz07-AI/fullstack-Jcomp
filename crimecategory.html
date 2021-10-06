@@ -1,0 +1,39 @@
+<html>
+<body>
+
+<p><h1><font color="red">CATEGORY FORM</font></h1></p>
+
+<body style="background-color:grey;"> 
+<form action="submitcrr.php" method="post" >
+<table style="width:40%" align="center" border=0 cellspacing=4 >
+<tr><td>
+<label><b>category name</b></label>
+<input type="text" placeholder="enter the category" name="cname"  id="f1" required></p></td></tr>
+<tr><td>
+<p><label><b>description</b></label>
+<textarea name="description" id="f2" form="usrform">enter the description..................................................................................................................................</textarea></p>
+</td></tr></p>
+<button type="submit" name="submit" >submit</button>
+<button type="submit" onclick="reset()">reset</button>
+</table>
+<script>
+function reset(){
+var a=document.getElementById("f1").value;
+var b=document.getElementById("f2").value;
+if(a==""||b==""){
+alert("please fill the details mentioned");
+}
+
+else{
+a="";
+b="";
+
+document.getElementById("f1").value=a;
+document.getElementById("f2").value=b;
+
+}
+}
+</script>
+</form>
+</body>
+</html>

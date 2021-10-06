@@ -1,0 +1,19 @@
+require_once('PHPMailer/PHPMailerAutoload.php');
+require_once('PHPMailer/class.phpmailer.php');
+        $mail= new PHPMailer();
+        $mail->IsSMTP();
+        $mail->SMTPAuth=true;
+        $mail->SMTPSecure = 'tls';
+        $mail->Host = 'smtp.gmail.com'; // ex. webmail@domain.com
+        $mail->Port = 25;
+        $mail->IsHTML(true);
+        $mail->Username = 'gurramkondafaraz@gmail.com'; 
+        $mail->Password = 'passwordpassword';
+        $mail->setFrom('no-reply:gurramkondafaraz@gmail.com');
+
+
+
+         $mail->send();
+        $mail->FromName = 'author:faraz'; 
+        $mail->AddAddress($email);  
+        $mail->AddReplyTo('gurramkondafaraz@gmail.com');

@@ -1,0 +1,78 @@
+<html>
+<head>
+      <title>MY WEB APPLICATION</title>
+    <h1><font color="red"><marquee>WELCOME TO CRIMINAL RECORD MANAGEMENT SYSTEM</marquee></font></h1>
+<style>
+body {
+  background:url("web.jfif")  no-repeat center center fixed;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+     background-size:cover;
+     text-align:center;
+}
+.tab{
+   border:1px solid white;
+   font-family:Arial, Helvetica, sans-serif;
+   font-style:italic;
+   color:red;
+   font-size:lighter;
+   margin-left:auto;
+   margin-right:auto;
+   box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+.btt{
+  width:60px;
+}
+.btn{
+  width:60px;  
+}
+a{  
+color:rgb(255,255,255);
+      width:70px;
+}
+a:link{ 
+      text-decoration:none;
+      text-align:center;
+}
+
+
+
+</style>
+</head>
+
+<body>
+<form action="in.php" method="GET">
+<table class=tab cellspacing=2><tr><td>
+<p><label><b>username</b></label></td><td>
+<input type="username" placeholder="enter username" name="uname" id="f1"  required></p></td></tr>
+<tr><td><p><label><b>password</b></label></td><td>
+<input type="password" placeholder="enter password" name="password" id="f2" required></p></td></tr>
+<div>
+<tr><td>
+<button class=btt type="submit">login</button>
+<button class=btn type="button" onclick="reset()">reset</button>
+</td></tr></div>
+
+<tr><td>
+<a href="sign up.html"><h3>sign up</h3></a></td></tr>
+
+<script>
+function reset(){
+var a=document.getElementById("f1").value;
+var b=document.getElementById("f2").value;
+if(a==""||b==""){
+alert("please fill the details");
+}
+else{
+a="";
+b="";
+document.getElementById("f1").value=a;
+document.getElementById("f2").value=b;
+}
+}
+</script>
+</form>
+</body>
+</html>

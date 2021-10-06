@@ -1,0 +1,3 @@
+localhost/includes/create-new-password.php?selector=ce87fbfd12781d96&validate=$2y$10$HhYVu9PAxQsPX/QeW1PZP.wT8XAlmh2UYfHndE4aVNLZQuTdP7HtW
+$selector=$_POST["selector"];
+$validate=$_POST["validate"];
